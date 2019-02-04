@@ -452,6 +452,9 @@ body #conversation-list-rows .conversation .fa-star-o {
   color: #8bf6f7;
   border-bottom: 1px solid #dedddd;
 }
+.conversationPlaceholder header {
+  color: #8bf6f7;
+}
 .conversation .subject-text .ellipsis {
   overflow: none;
   width: 260px;
