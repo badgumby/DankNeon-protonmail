@@ -1,3 +1,9 @@
+/*
+
+Modified by BAD Gumby
+Darker, Danker version for ProtonMail
+
+*/
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,8 +17,8 @@ body,
   letter-spacing: 0.5px;
 }
 .headerDesktop-container {
-  background: #ae81ff;
-  border-bottom: 1px solid #dac6ff;
+  background: #2a2d46;
+  border-bottom: 1px solid #8bf6f7;
   z-index: 100;
 }
 .headerDesktop-container .headerDesktop-logo {
@@ -73,7 +79,7 @@ body,
   margin: 0px 3px;
 }
 .headerDesktop-container ul.navigation > li .navigation-link {
-  color: #282a2d;
+  color: #8bf6f7;
   opacity: 0.5;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -133,7 +139,7 @@ html.protonmail .help {
   line-height: 1.6;
 }
 #pm_header-desktop ul.navigation > li .pm_dropdown .user b {
-  color: #bcc6d4;
+  color: #8bf6f7;
 }
 .pm_dropdown > a,
 .pm_dropdown > button,
@@ -141,9 +147,9 @@ html.protonmail .help {
   border-bottom: none;
 }
 .sidebarApp-container {
-  background: #ffffff;
+  background: #191b2a;
   padding-top: 20px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), -1px 0 0 #bcc6d4 inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), -1px 0 0 #8bf6f7 inset;
   z-index: 70;
 }
 .sidebarApp-container .sidebar-btn-compose {
@@ -182,47 +188,47 @@ html.protonmail .help {
 }
 .sidebarApp-container ul.menu li a {
   transition: all 0.3s ease;
-  color: #bcc6d4;
+  color: #8bf6f7;
   font-size: 12px;
   letter-spacing: 0.5px;
   margin: 3px 0 0 2px;
   font-weight: 400;
 }
 .sidebarApp-container ul.menu li a i.fa {
-  color: #bcc6d4;
+  color: #8bf6f7;
   line-height: 28px;
   font-size: 14px;
   margin-right: 2px;
 }
 .sidebarApp-container ul.menu li a .fa-repeat {
-  color: #bcc6d4;
+  color: #8bf6f7;
   transition: all 0.3s ease;
 }
 .sidebarApp-container ul.menu li a .fa-repeat:hover {
-  color: #bcc6d4;
+  color: #8bf6f7;
   transform: rotate(60deg);
 }
 .sidebarApp-container ul.menu li a em {
   letter-spacing: 1px;
-  color: #bcc6d4;
+  color: #8bf6f7;
   margin-left: 3px;
 }
 .sidebarApp-container ul.menu li.active a,
 .sidebarApp-container ul.menu li a:hover {
-  color: #634382;
+  color: #df4a6e;
 }
 .sidebarApp-container body section.sidebar .backToInbox + ul.menu::before {
   display: none;
 }
 .sidebarApp-container div.labels ul li a {
-  color: #bcc6d4;
+  color: #8bf6f7;
   font-size: 12px;
   letter-spacing: 0.25px;
   margin: 5px 0 0 5px;
 }
 .sidebarApp-container div.labels ul li a:hover,
 .sidebarApp-container div.labels ul li a.active {
-  color: #634382;
+  color: #df4a6e;
 }
 .sidebarApp-container div.labels ul li a .fa-tag:before {
   content: "\f10c";
@@ -231,20 +237,23 @@ html.protonmail .help {
   color: inherit;
 }
 .sidebarApp-container .menuLabel-item.active .menuLabel-title {
-  color: #634382;
+  color: #df4a6e;
 }
 .compose + :before {
   content: "Messages";
 }
 .sidebarApp-container .sidebar-btn-back {
-  color: #634382;
-  border: 1px solid #634382;
+  color: #df4a6e;
+  border: 1px solid #df4a6e;
 }
 #tour-label-settings {
   margin: 0;
 }
+.toolbarDesktop-container {
+  background-color: #2a2d46;
+}
 #pm_toolbar-desktop {
-  background: #f4f2f2;
+  background: #191b2a;
   box-shadow: inset 0 -1px 0 #dbd8d3;
   z-index: 60;
 }
@@ -334,15 +343,15 @@ html.protonmail .help {
   transition: all 0.3s ease;
 }
 .conversation.read {
-  background: #f7f6f6 !important;
-  color: #7f6d9b;
+  background: #2a2d46 !important;
+  color: #65b38a;
 }
 .conversation.read.active {
-  background: #f7f6f6 !important;
+  background: #2a2d46 !important;
 }
 .conversation:hover,
 .conversation.read:hover {
-  background: #ffffff !important;
+  background: #2a2d46 !important;
 }
 .conversation.active {
   background: #fff !important;
@@ -439,8 +448,8 @@ body #conversation-list-rows .conversation .fa-star-o {
   height: 90px;
   font-size: 12px;
   letter-spacing: 0.8px;
-  background: #fff;
-  color: #6c4b9b;
+  background: #191b2a;
+  color: #8bf6f7;
   border-bottom: 1px solid #dedddd;
 }
 .conversation .subject-text .ellipsis {
@@ -514,12 +523,13 @@ body #conversation-list-rows .conversation > * {
 }
 body #conversation-list-columns {
   border-right: none;
-  background: #f7f6f6;
+  background: #2a2d46;
 }
 #conversation-view,
 #pm_view {
+  background-color: #191b2a;
   position: relative;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 1px 0 0 #bcc6d4 inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 1px 0 0 #8bf6f7 inset;
   z-index: 50;
 }
 body #pm_thread {
@@ -536,8 +546,9 @@ body #conversation-list-rows .conversation.read .subject h4 {
   margin-left: -1px;
 }
 #conversation-view header h1 {
+  color: #8bf6f7;
   padding: 20px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 -1px 0 #bcc6d4 inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 -1px 0 #8bf6f7 inset;
 }
 #conversation-view .message > div.summary .meta .contact strong,
 #nothingToSeeHere h3,
@@ -555,7 +566,7 @@ body.mobileMode
   background: #ffffff;
 }
 #conversation-view .message .details {
-  border-bottom: 1px solid #bcc6d4;
+  border-bottom: 1px solid #8bf6f7;
 }
 #conversation-view header {
   padding: 0;
@@ -582,7 +593,7 @@ body.mobileMode
   line-height: 22px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  border-bottom: 1px solid #bcc6d4;
+  border-bottom: 1px solid #8bf6f7;
 }
 #conversation-view .message > div.summary .labels,
 #conversation-view .message > div.summary .status,
