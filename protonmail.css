@@ -528,6 +528,13 @@ body #conversation-list-rows .conversation .fa-star-o {
 }
 .conversationPlaceholder header {
   color: #01f7f7;
+  border-bottom: 1px solid #01f7f7;
+}
+.conversationPlaceholder section {
+    border: 1px solid #01f7f7;
+}
+.conversationPlaceholder #storageStatus .wrap span {
+    color: #ffee7a;
 }
 .conversation .subject-text .ellipsis {
   overflow: none;
