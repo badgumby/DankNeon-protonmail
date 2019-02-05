@@ -18,7 +18,7 @@ body,
 }
 .headerDesktop-container {
   background: #2a2d46;
-  border-bottom: 1px solid #8bf6f7;
+  border-bottom: 1px solid #01f7f7;
   z-index: 100;
 }
 .headerDesktop-container .headerDesktop-logo {
@@ -68,7 +68,7 @@ body,
   letter-spacing: 0.8px;
 }
 .search-form-fieldset-input {
-  border-color: #8bf6f7;
+  border-color: #01f7f7;
   padding: 0 0 0 4px;
   border-radius: 12px;
 }
@@ -76,13 +76,16 @@ body,
   background: #191b2a;
 }
 .searchForm-advanced-container label {
-  color: #8bf6f7;
+  color: #01f7f7;
 }
 .searchForm-advanced-wrapper {
   background: #191b2a;
 }
 .headerDesktop-container #advancedSearchDropdown .pm_form .radio label {
   margin-right: 0;
+}
+.navigation>li.active, .navigation>li:hover {
+    border-color: #01f7f7;
 }
 .navigation>li:hover {
   border-color: #ed3e71;
@@ -96,7 +99,7 @@ body,
   margin: 0px 3px;
 }
 .headerDesktop-container ul.navigation > li .navigation-link {
-  color: #8bf6f7;
+  color: #01f7f7;
   opacity: 0.5;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -144,7 +147,7 @@ body,
   display: block;
   content: "\f107";
   font: normal normal normal 14px/1 "FontAwesome";
-  color: #282a2d;
+  color: #01f7f7;
 }
 .headerDesktop-container ul.navigation .pm_trigger {
   border-radius: 0;
@@ -157,21 +160,37 @@ html.protonmail .help {
   line-height: 1.6;
 }
 #pm_header-desktop ul.navigation > li .pm_dropdown .user b {
-  color: #8bf6f7;
+  color: #01f7f7;
+}
+.navigationUser-dropdown {
+    color: #01f7f7;
+}
+.pm_dropdown {
+  background: #3c4367;
+  border: 1px solid #01f7f7;
 }
 .pm_dropdown > a,
 .pm_dropdown > button,
 .pm_dropdown > ul > li {
   border-bottom: none;
 }
+#pm_sidebar {
+  height: 95%;
+}
 .sidebarApp-container {
   background: #191b2a;
   padding-top: 20px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), -1px 0 0 #8bf6f7 inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), -1px 0 0 #01f7f7 inset;
   z-index: 70;
 }
+.sidebarApp-container .footer div.link a {
+  color: #94bfff;
+}
+.sidebarApp-container .footer div.storage strong {
+  color: #94bfff;
+}
 .sidebarApp-container .sidebar-btn-compose {
-  background: #f92672;
+  background: #ff476e;
   transition: all 0.3s ease;
   font-weight: 400;
   text-align: left;
@@ -206,63 +225,63 @@ html.protonmail .help {
 }
 .sidebarApp-container ul.menu li a {
   transition: all 0.3s ease;
-  color: #8bf6f7;
+  color: #01f7f7;
   font-size: 12px;
   letter-spacing: 0.5px;
   margin: 3px 0 0 2px;
   font-weight: 400;
 }
 .sidebarApp-container ul.menu li a i.fa {
-  color: #8bf6f7;
+  color: #01f7f7;
   line-height: 28px;
   font-size: 14px;
   margin-right: 2px;
 }
 .sidebarApp-container ul.menu li a .fa-repeat {
-  color: #8bf6f7;
+  color: #01f7f7;
   transition: all 0.3s ease;
 }
 .sidebarApp-container ul.menu li a .fa-repeat:hover {
-  color: #8bf6f7;
+  color: #01f7f7;
   transform: rotate(60deg);
 }
 .sidebarApp-container ul.menu li a em {
   letter-spacing: 1px;
-  color: #8bf6f7;
+  color: #01f7f7;
   margin-left: 3px;
 }
 .sidebarApp-container ul.menu li.active a,
 .sidebarApp-container ul.menu li a:hover {
-  color: #df4a6e;
+  color: #ff476e;
 }
 .sidebarApp-container body section.sidebar .backToInbox + ul.menu::before {
   display: none;
 }
 .sidebarApp-container div.labels ul li a {
-  color: #8bf6f7;
+  color: #01f7f7;
   font-size: 12px;
   letter-spacing: 0.25px;
   margin: 5px 0 0 5px;
 }
 .sidebarApp-container div.labels ul li a:hover,
 .sidebarApp-container div.labels ul li a.active {
-  color: #df4a6e;
+  color: #ff476e;
 }
 .sidebarApp-container div.labels ul li a .fa-tag:before {
   content: "\f10c";
 }
 .sidebarApp-container .version {
-  color: inherit;
+  color: #01f7f7;
 }
 .sidebarApp-container .menuLabel-item.active .menuLabel-title {
-  color: #df4a6e;
+  color: #ff476e;
 }
 .compose + :before {
   content: "Messages";
 }
 .sidebarApp-container .sidebar-btn-back {
-  color: #df4a6e;
-  border: 1px solid #df4a6e;
+  color: #ff476e;
+  border: 1px solid #ff476e;
 }
 .sidebarApp-container .sidebar-btn-back, .sidebarApp-container .sidebar-btn-compose {
   padding: 0px;
@@ -271,7 +290,7 @@ html.protonmail .help {
   margin: 0;
 }
 .pm_toolbar {
-  box-shadow: inset 0 -1px 0 #8bf6f7;
+  box-shadow: inset 0 -1px 0 #01f7f7;
 }
 .toolbarDesktop-container {
   background-color: #2a2d46;
@@ -308,6 +327,9 @@ html.protonmail .help {
 }
 #pm_composer .composer.maximized {
   top: 130px;
+}
+.conversation-wrapper {
+  overflow-y: auto;
 }
 .conversation .row .pm_labels {
   position: relative;
@@ -371,7 +393,7 @@ html.protonmail .help {
 }
 .conversation.read {
   background: #2a2d46 !important;
-  color: #65b38a;
+  color: #39ffba;
 }
 .conversation.read.active {
   background: #2a2d46 !important;
@@ -393,7 +415,7 @@ html.protonmail .help {
 }
 .conversation.marked,
 .conversation.read.marked {
-  box-shadow: 3px 0 0 #71a6f5 inset;
+  box-shadow: 3px 0 0 #ffee7a inset;
 }
 .conversation.marked:before,
 .conversation.read.marked:before {
@@ -478,12 +500,12 @@ body #conversation-list-rows .conversation .fa-star-o {
   height: 90px;
   font-size: 12px;
   letter-spacing: 0.8px;
-  background: #191b2a;
-  color: #8bf6f7;
+  background: #4f5987;
+  color: #01f7f7;
   border-bottom: 1px solid #dedddd;
 }
 .conversationPlaceholder header {
-  color: #8bf6f7;
+  color: #01f7f7;
 }
 .conversation .subject-text .ellipsis {
   overflow: none;
@@ -497,7 +519,7 @@ body #conversation-list-rows .conversation .fa-star-o {
 }
 .conversation .row h4 {
   font-size: 11px;
-  color: #a59db0;
+  color: #ffee7a;
   line-height: 18px;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -558,11 +580,15 @@ body #conversation-list-columns {
   border-right: none;
   background: #2a2d46;
 }
+body #conversation-view.latest, body #pm_view.latest {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 #conversation-view,
 #pm_view {
   background-color: #191b2a;
   position: relative;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 1px 0 0 #8bf6f7 inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 1px 0 0 #01f7f7 inset;
   z-index: 50;
 }
 body #pm_thread {
@@ -579,9 +605,9 @@ body #conversation-list-rows .conversation.read .subject h4 {
   margin-left: -1px;
 }
 #conversation-view header h1 {
-  color: #8bf6f7;
+  color: #01f7f7;
   padding: 20px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 -1px 0 #8bf6f7 inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 -1px 0 #01f7f7 inset;
 }
 #conversation-view .message > div.summary .meta .contact strong,
 #nothingToSeeHere h3,
@@ -599,7 +625,7 @@ body.mobileMode
   background: #ffffff;
 }
 #conversation-view .message .details {
-  border-bottom: 1px solid #8bf6f7;
+  border-bottom: 1px solid #01f7f7;
 }
 #conversation-view header {
   padding: 0;
@@ -626,7 +652,7 @@ body.mobileMode
   line-height: 22px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  border-bottom: 1px solid #8bf6f7;
+  border-bottom: 1px solid #01f7f7;
 }
 #conversation-view .message > div.summary .labels,
 #conversation-view .message > div.summary .status,
