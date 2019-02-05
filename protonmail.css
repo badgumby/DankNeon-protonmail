@@ -73,13 +73,13 @@ body,
   border-radius: 12px;
 }
 .searchForm-advanced-main {
-  background: #191b2a;
+  background: #3c4367;
 }
 .searchForm-advanced-container label {
   color: #01f7f7;
 }
 .searchForm-advanced-wrapper {
-  background: #191b2a;
+  background: #3c4367;
 }
 .headerDesktop-container #advancedSearchDropdown .pm_form .radio label {
   margin-right: 0;
