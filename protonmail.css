@@ -29,7 +29,7 @@ body,
   margin-top: 8px;
 }
 .headerDesktop-container form.searchForm-container .search-form-fieldset {
-  background: none;
+  /*background: none;*/
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
@@ -67,8 +67,25 @@ body,
   font-weight: 700;
   letter-spacing: 0.8px;
 }
+.search-form-fieldset-input {
+  border-color: #8bf6f7;
+  padding: 0 0 0 4px;
+  border-radius: 12px;
+}
+.searchForm-advanced-main {
+  background: #191b2a;
+}
+.searchForm-advanced-container label {
+  color: #8bf6f7;
+}
+.searchForm-advanced-wrapper {
+  background: #191b2a;
+}
 .headerDesktop-container #advancedSearchDropdown .pm_form .radio label {
   margin-right: 0;
+}
+.navigation>li:hover {
+  border-color: #ed3e71;
 }
 .headerDesktop-container ul.navigation {
   margin-right: 20px;
@@ -115,8 +132,9 @@ body,
   padding-right: 30px;
 }
 .headerDesktop-container ul.navigation > li:last-child > a {
-  color: #282a2d;
-  opacity: 0.8;
+  color: #ed3e71;
+  opacity: 1.0;
+  font-size: 14px;
   transition: all 0.3s ease;
 }
 .headerDesktop-container ul.navigation > li:last-child:after {
@@ -245,6 +263,9 @@ html.protonmail .help {
 .sidebarApp-container .sidebar-btn-back {
   color: #df4a6e;
   border: 1px solid #df4a6e;
+}
+.sidebarApp-container .sidebar-btn-back, .sidebarApp-container .sidebar-btn-compose {
+  padding: 0px;
 }
 #tour-label-settings {
   margin: 0;
