@@ -4,6 +4,9 @@ Modified by BAD Gumby
 Darker, Danker version for ProtonMail
 
 */
+html.protonmail .plus {
+    color: #01f7f7;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -165,6 +168,11 @@ html.protonmail .help {
 .navigationUser-dropdown {
     color: #01f7f7;
 }
+.customRadio-input:checked+.customRadio-mask {
+    -webkit-box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 10px #ff476e;
+    box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 10px #ff476e;
+    border-color: #ff476e;
+}
 .pm_dropdown {
   background: #3c4367;
   border: 1px solid #01f7f7;
@@ -173,6 +181,10 @@ html.protonmail .help {
 .pm_dropdown > button,
 .pm_dropdown > ul > li {
   border-bottom: none;
+}
+.pm_dropdown>a:hover, .pm_dropdown>button:hover, .pm_dropdown>ul>li:hover {
+    background-color: transparent!important;
+    color: #ff476e!important;
 }
 #pm_sidebar {
   height: 95%;
@@ -196,7 +208,7 @@ html.protonmail .help {
   text-align: left;
   text-indent: 5px;
   padding-left: 7px;
-  border-color: #ff71a4;
+  border-color: #01f7f7;
 }
 .sidebarApp-container .sidebar-btn-compose span {
   margin-left: -5px;
@@ -205,8 +217,8 @@ html.protonmail .help {
   display: none;
 }
 .sidebarApp-container .sidebar-btn-compose:hover {
-  background: #b63045;
-  border-color: #a22b3d;
+  background: #ac3756;
+  border-color: #01f7f7;
 }
 .sidebarApp-container .sidebar-btn-compose:before {
   font-family: "FontAwesome";
@@ -302,6 +314,16 @@ html.protonmail .help {
   background: #191b2a;
   box-shadow: inset 0 -1px 0 #dbd8d3;
   z-index: 60;
+}
+.pm_button.primary {
+    background-color: #ff476e;
+    border-color: #01f7f7;
+    color: #fff;
+}
+.pm_button.primary:focus, .pm_button.primary:hover {
+    background-color: #ac3756;
+    border-color: #01f7f7;
+    color: #fff;
 }
 .pm_buttons {
   border: 1px solid #d1cdca;
