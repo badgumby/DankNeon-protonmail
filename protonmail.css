@@ -181,6 +181,7 @@ html.protonmail .help {
 .pm_dropdown > button,
 .pm_dropdown > ul > li {
   border-bottom: none;
+  color: #01f7f7;
 }
 .pm_dropdown>a:hover, .pm_dropdown>button:hover, .pm_dropdown>ul>li:hover {
     background-color: transparent!important;
@@ -617,6 +618,7 @@ body #conversation-list-columns {
 body #conversation-view.latest, body #pm_view.latest {
     overflow-y: auto;
     overflow-x: hidden;
+    z-index: 0;
 }
 #conversation-view,
 #pm_view {
