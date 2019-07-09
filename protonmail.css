@@ -186,6 +186,11 @@ html.protonmail .help {
     background-color: transparent!important;
     color: #ff476e!important;
 }
+
+.pm_dropdown.dropdown-actions-nowrap .dropdown-actions-nowrap-button {
+  color: #01f7f7;
+}
+
 #pm_sidebar {
   height: 95%;
 }
