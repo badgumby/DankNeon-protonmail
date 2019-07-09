@@ -359,6 +359,10 @@ html.protonmail .help {
 .conversation-wrapper {
   overflow-y: auto;
 }
+
+.conversation-container, .conversation-wrapper {
+    z-index: 0;
+}
 .conversation .row .pm_labels {
   position: relative;
   font-size: 10px;
@@ -618,6 +622,11 @@ body #conversation-list-columns {
 body #conversation-view.latest, body #pm_view.latest {
     overflow-y: auto;
     overflow-x: hidden;
+    z-index: 0;
+}
+body #conversation-view, body #pm_view {
+    width: 60%;
+    overflow: hidden;
     z-index: 0;
 }
 #conversation-view,
